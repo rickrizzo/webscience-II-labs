@@ -1,3 +1,5 @@
+package Mining;
+
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTVerificationException;
@@ -5,7 +7,7 @@ import com.auth0.jwt.exceptions.JWTVerificationException;
 import java.io.UnsupportedEncodingException;
 import java.util.Optional;
 
-public class PartThree {
+public class Decrypting {
 
     private static Optional<String> createJWT(String secret) {
         Algorithm algorithmHS;
